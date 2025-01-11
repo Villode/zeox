@@ -1,0 +1,15 @@
+/* Custom styles */
+.custom-header {
+    padding: 2rem 0;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.custom-footer {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+/* Add your custom styles here */ 
