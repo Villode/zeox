@@ -1,5 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
+const { promisify } = require('util');
 
 async function initProject(targetDir = '.') {
     try {
@@ -7,10 +8,16 @@ async function initProject(targetDir = '.') {
         console.log(`Initializing new blog in ${targetPath}`);
 
         // 创建必要的目录结构
-        await fs.ensureDir(path.join(targetPath, 'source/posts'));
-        await fs.ensureDir(path.join(targetPath, 'source/pages'));
-        await fs.ensureDir(path.join(targetPath, 'source/assets'));
-        await fs.ensureDir(path.join(targetPath, 'public'));
+        const dirs = [
+            'source/posts',
+            'source/pages',
+            'source/assets',
+            'public'
+        ];
+
+        for (const dir of dirs) {
+            await fs.ensureDir(path.join(targetPath, dir));
+        }
 
         // 创建配置文件
         const configContent = `# Site Information
@@ -72,6 +79,4 @@ Enjoy blogging with Zeox!`;
     }
 }
 
-module.exports = {
-    initProject
-}; 
+module.exports = initProject; 
