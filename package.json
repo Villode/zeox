@@ -1,6 +1,6 @@
 {
   "name": "zeox",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Zeox is a lightweight and customizable static blog generator",
   "main": "index.js",
   "type": "commonjs",
