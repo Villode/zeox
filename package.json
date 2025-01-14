@@ -1,0 +1,47 @@
+{
+  "name": "zeox",
+  "version": "0.0.13",
+  "description": "Zeox is a lightweight and customizable static blog generator that allows users to create beautiful and fast blogs with ease. Built with modern web technologies, Zeox offers a simple setup, flexible theming options, and a user-friendly interface for managing content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Villode/zeox.git"
+  },
+  "keywords": [
+    "static",
+    "blog",
+    "generator",
+    "blog",
+    "zeox",
+    "customizable",
+    "lightweight"
+  ],
+  "author": "villode",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Villode/zeox/issues"
+  },
+  "homepage": "https://github.com/Villode/zeox#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "node-fetch": "^2.6.9",
+    "glob": "^10.3.10"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^11.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^4.0.12",
+    "ws": "^8.16.0"
+  },
+  "bin": {
+    "zeox": "./bin/zeox.js"
+  }
+}

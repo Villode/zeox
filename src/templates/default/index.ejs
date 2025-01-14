@@ -1,0 +1,15 @@
+<%- include('layout', { 
+    title: 'Blog Home',
+    content: `
+        <div class="posts-list">
+            <h1>Latest Posts</h1>
+            ${posts.map(post => `
+                <article class="post-preview">
+                    <h2><a href="/posts/${post.slug}">${post.title}</a></h2>
+                    <time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>
+                    <p>${post.excerpt}</p>
+                </article>
+            `).join('')}
+        </div>
+    `
+}) %> 
