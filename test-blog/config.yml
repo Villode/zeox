@@ -1,0 +1,11 @@
+title: My Zeox Blog
+description: A new blog powered by Zeox
+author: Your Name
+theme: default
+url: http://localhost:3000
+language: zh-CN
+timezone: Asia/Shanghai
+posts:
+  perPage: 10
+  sortBy: date
+  order: desc

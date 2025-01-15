@@ -1,0 +1,36 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "My Blog",
+    "home_page_url": "http://localhost:3000",
+    "icon": "http://localhost:3000/images/logo.png",
+    "author": {
+        "name": "Anonymous"
+    },
+    "items": [
+        {
+            "id": "http://localhost:3000/posts/第一篇博客.html",
+            "content_html": "<h1 id=\"第一篇博客\">第一篇博客</h1>\n<p>Write your content here...</p>\n",
+            "url": "http://localhost:3000/posts/第一篇博客.html",
+            "title": "第一篇博客",
+            "date_modified": "2025-01-15T09:47:28.464Z",
+            "author": {
+                "name": "Anonymous"
+            },
+            "tags": []
+        },
+        {
+            "id": "http://localhost:3000/posts/hello-world.html",
+            "content_html": "<h1 id=\"welcome-to-your-new-blog\">Welcome to Your New Blog</h1>\n<p>This is your first blog post. Edit or delete it, then start blogging!</p>\n",
+            "url": "http://localhost:3000/posts/hello-world.html",
+            "title": "Welcome to Zeox",
+            "date_modified": "2025-01-15T09:44:06.269Z",
+            "author": {
+                "name": "Anonymous"
+            },
+            "tags": [
+                "zeox",
+                "blog"
+            ]
+        }
+    ]
+}

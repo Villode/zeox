@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My Blog</title>
+        <link>http://localhost:3000</link>
+        <description></description>
+        <lastBuildDate>Wed, 15 Jan 2025 10:00:15 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <image>
+            <title>My Blog</title>
+            <url>http://localhost:3000/images/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2025</copyright>
+        <item>
+            <title><![CDATA[第一篇博客]]></title>
+            <link>http://localhost:3000/posts/第一篇博客.html</link>
+            <guid>http://localhost:3000/posts/第一篇博客.html</guid>
+            <pubDate>Wed, 15 Jan 2025 09:47:28 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="第一篇博客">第一篇博客</h1>
+<p>Write your content here...</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Zeox]]></title>
+            <link>http://localhost:3000/posts/hello-world.html</link>
+            <guid>http://localhost:3000/posts/hello-world.html</guid>
+            <pubDate>Wed, 15 Jan 2025 09:44:06 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="welcome-to-your-new-blog">Welcome to Your New Blog</h1>
+<p>This is your first blog post. Edit or delete it, then start blogging!</p>
+]]></content:encoded>
+            <category>zeox</category>
+            <category>blog</category>
+        </item>
+    </channel>
+</rss>
